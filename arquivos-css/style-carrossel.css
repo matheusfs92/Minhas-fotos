@@ -8,8 +8,8 @@ body {
   display: none;
 }
 img {
-  width: 1095px;
-  height: 395px;
+  width: 3000px;
+  height: 305px;
   object-fit: cover;
   vertical-align: middle;
 }
@@ -23,8 +23,8 @@ img {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: #0c0a0a;
+  font-size: 25px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
