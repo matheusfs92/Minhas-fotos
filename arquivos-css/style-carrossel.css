@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  padding: 0px;
 }
 body {
   font-family: Verdana, sans-serif;
@@ -9,7 +10,7 @@ body {
 }
 img {
   width: 3000px;
-  height: 305px;
+  height: 355px;
   object-fit: cover;
   vertical-align: middle;
 }
