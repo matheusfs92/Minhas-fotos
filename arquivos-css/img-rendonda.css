@@ -1,1 +1,47 @@
+.circulo {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
 
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: url("/fotos/eu-mat\ \(2\).jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+.text-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: rotateText 10s linear infinite;
+}
+
+@keyframes rotateText {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.text-2 span {
+  /* se comunica com js */
+  position: absolute;
+  left: 50%;
+  font-size: 1.2em;
+  transform-origin: 0 100px;
+}
