@@ -5,6 +5,10 @@
 body {
   font-family: Verdana, sans-serif;
 }
+.cor {
+  background: rgb(31, 26, 26);
+}
+
 .mySlides {
   display: none;
 }
