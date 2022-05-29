@@ -8,6 +8,9 @@ body {
   display: none;
 }
 img {
+  width: 1095px;
+  height: 395px;
+  object-fit: cover;
   vertical-align: middle;
 }
 
@@ -73,3 +76,4 @@ img {
   .text {
     font-size: 11px;
   }
+}
