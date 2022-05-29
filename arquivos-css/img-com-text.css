@@ -1,5 +1,12 @@
+.centro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 div.gallery {
-  margin: 40px;
+  margin: 10px;
   border: 1px solid #ccc;
   float: left;
   width: 250px;
@@ -16,6 +23,6 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 5px;
   text-align: center;
 }
